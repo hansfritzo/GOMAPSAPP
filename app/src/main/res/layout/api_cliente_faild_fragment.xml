@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundview"
+    tools:context=".ui.view.ApiClienteFaildFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="@dimen/icono"
+            android:layout_height="@dimen/icono"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_top"
+            android:fontFamily="@font/canaro"
+            android:gravity="center"
+            android:text="@string/oops"
+            android:textColor="@color/textcolor"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_top"
+            android:fontFamily="@font/robotobold"
+            android:gravity="center"
+            android:text="@string/solucionar_el_problema"
+            android:textColor="@color/textcolorlight"
+            android:textSize="@dimen/textbutton" />
+
+        <LinearLayout
+            android:id="@+id/btnLoad"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_button"
+            android:layout_marginTop="@dimen/margin_top"
+            android:layout_weight="0"
+            android:background="@drawable/button_approve"
+            android:gravity="center"
+            tools:ignore="InefficientWeight">
+
+            <ImageView
+                android:layout_width="@dimen/dimen_load"
+                android:layout_height="@dimen/dimen_load"
+                android:layout_marginStart="@dimen/margin_10dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/recargar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_button"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/margin_10dp"
+                android:layout_weight="2"
+                android:fontFamily="@font/robotobold"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/volver_a_inentar"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textbutton"
+                tools:ignore="NestedWeights" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

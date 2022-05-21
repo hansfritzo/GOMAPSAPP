@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Go Maps</string>
+    <string name="gps">Por favor activar el GPS</string>
+    <string name="volver_a_inentar">Volver a inentar</string>
+    <string name="solucionar_el_problema">Lo sentimos, se produjo un error en nuestra plataforma. Estamos trabajando para solucionar el problema.</string>
+    <string name="version">Go Maps by InterGrupo</string>
+    <string name="todo">TODO</string>
+    <string name="oops">¡Oops!</string>
+    <string name="go">GO</string>
+</resources>

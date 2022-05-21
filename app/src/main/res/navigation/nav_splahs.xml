@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_splahs"
+    app:startDestination="@id/splahsFragment">
+
+    <fragment
+        android:id="@+id/splahsFragment"
+        android:name="com.intergrupo.gomaps.ui.view.SplahsFragment"
+        android:label="splahs_fragment"
+        tools:layout="@layout/splahs_fragment" >
+        <action
+            android:id="@+id/action_splahsFragment_to_apiClienteFaildFragment"
+            app:destination="@id/apiClienteFaildFragment" />
+        <action
+            android:id="@+id/action_splahsFragment_to_homeActivity"
+            app:destination="@id/homeActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/apiClienteFaildFragment"
+        android:name="com.intergrupo.gomaps.ui.view.ApiClienteFaildFragment"
+        android:label="api_cliente_faild_fragment"
+        tools:layout="@layout/api_cliente_faild_fragment" >
+        <action
+            android:id="@+id/action_apiClienteFaildFragment_to_splahsFragment"
+            app:destination="@id/splahsFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="com.intergrupo.gomaps.ui.view.HomeActivity"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" />
+</navigation>
