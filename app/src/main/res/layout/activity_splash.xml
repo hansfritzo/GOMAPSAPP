@@ -12,7 +12,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:text="coma mierda"
+            android:text="Vamos a Buscar perras, Uff"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
