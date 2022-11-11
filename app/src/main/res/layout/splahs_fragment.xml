@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgroundview"
+    android:background="@color/purple_200"
     tools:context=".ui.view.SplahsFragment">
 
     <RelativeLayout
@@ -60,5 +60,11 @@
         </RelativeLayout>
 
     </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="419dp"
+        android:layout_height="69dp"
+        android:text="TextView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
